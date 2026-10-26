@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large datasets and ML model binaries (50MB+ exceed recommended GitHub limits)
+data/TON_IoT_Weather.csv
+data/*.csv
+models/*.joblib
+
+# Local logs and execution artifacts
+logs/
+logs/*.csv
+*.log
+
+# Local temporary backups
+dashboard_backup.py
+*_backup.py
+*.bak
